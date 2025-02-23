@@ -19,11 +19,6 @@ app.get("/", (req: Request, res: Response) => {
 // Start server
 app.get("/api/v1", (req: Request, res: Response) => {
     res.send("Hello, TypeScript Node Server!");
-}
-);
-
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+}); 
 
 export default app;
